@@ -3,7 +3,7 @@
 	include_once('/dao/daoProduto.php');
 	include_once('/dao/daoVenda.php');
 	include_once('/modelo/produto.php');
-	include_once('/modelo/venda.php');
+	include_once('/modelo/venda.php'); 
 	class ControlePagina{
 		private $dao;
 		function retornaProdutosCadastrados(){ //Retorna os últimos produtos cadastrados no sistema
